@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.slider {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.slides {
+    display: flex;
+    overflow: hidden;
+}
+
+.slide {
+    width: 80%;
+}
+
+img {
+    width: 80%;
+    height: auto;
+}
+
+button {
+    cursor: pointer;
+}
+
+.prev {
+    position: absolute;
+    top: 80%;
+    left: 0;
+    transform: translateY(-80%);
+}
+
+.next {
+    position: absolute;
+    top: 80%;
+    right: 0;
+    transform: translateY(-80%);
+}
